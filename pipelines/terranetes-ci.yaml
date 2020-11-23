@@ -1,0 +1,18 @@
+pool:
+  name: Hosted Ubuntu 1604
+steps:
+- bash: |
+   # Write your commands here
+   
+   # Use the environment variables input below to pass secret variables to this script
+   
+   sudo npm install
+  displayName: 'Install Packages'
+
+- bash: |
+   # Write your commands here
+   
+   # Use the environment variables input below to pass secret variables to this script
+   
+   sudo npm run build
+  displayName: 'Build Node App'

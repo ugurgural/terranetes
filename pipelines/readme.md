@@ -1,0 +1,1 @@
+Pipelines are only generated for DEV environment, for PROD yaml files should be parameterized or seperate folder structure should be placed for each environment.
